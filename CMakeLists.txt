@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.17)
+project(codechef)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(MAXFUN MAXFUN.cpp)
+add_executable(ICL16A ICL16A.cpp)
+add_executable(CHEFELEC CHEFELEC.cpp)
+add_executable(HOOPS HOOPS.cpp)
+add_executable(TANDJ1 TANDJ1.cpp)
+add_executable(TWINGFT TWINGFT.cpp)
+add_executable(CHARGES CHARGES.cpp)
+add_executable(NUMCOMP1 NUMCOMP1.cpp)
