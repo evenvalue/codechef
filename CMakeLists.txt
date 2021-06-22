@@ -3,6 +3,7 @@ project(codechef)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(BOLT BOLT.cpp)
 add_executable(CHARGES CHARGES.cpp)
 add_executable(CHEFELEC CHEFELEC.cpp)
 add_executable(CHESUB CHESUB.cpp)
