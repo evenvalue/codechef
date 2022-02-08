@@ -163,6 +163,7 @@ void solution() {
     }
     ans[q.i] = d.size(hash(q.x, q.y));
   }
+
   for (const int x : ans) {
     cout << x << '\n';
   }
