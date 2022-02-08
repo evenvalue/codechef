@@ -140,7 +140,6 @@ void solution() {
     q.x = readInt(), q.y = readInt(), q.p = readInt();
     q.i = i;
   }
-
   sort(queries.begin(), queries.end());
 
   vector<pair<int, int>> nbr = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
